@@ -146,4 +146,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
   }
+  body {
+    transform: scale(0.75);
+  }
 }
