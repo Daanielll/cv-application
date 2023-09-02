@@ -141,3 +141,9 @@ body {
   background-color: #fff;
   color: var(--secondary-color);
 }
+@media (max-width: 1000px) {
+  .all {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
