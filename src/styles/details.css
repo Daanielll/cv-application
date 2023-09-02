@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  width: 30rem;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1.5rem;
+  background-color: white;
+}
+.start-end-div {
+  display: flex;
+  gap: 2.5rem;
+  margin: 1rem 1.5rem;
+}
+.start-end-div > .input-div {
+  margin: 0;
+}
+input,
+textarea {
+  display: block;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--bg-color);
+}
+textarea {
+  resize: vertical;
+  min-height: 1rem;
+  max-height: 10rem;
+}
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.submit-div {
+  margin-inline: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.submit-div > div {
+  display: flex;
+  gap: 1rem;
+}
+.submit-div button {
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: 1px solid rgb(133, 133, 133);
+  color: rgb(133, 133, 133);
+}
+.submit-div i {
+  color: rgb(133, 133, 133);
+  margin-right: 5px;
+}
+.submit-div div :nth-child(2) {
+  background-color: #fca311;
+  color: white;
+  border-color: #fca311;
+}
+.new {
+  justify-content: right;
+}
+form > h1 {
+  margin: 1.2rem 1.25rem 0 1.25rem;
+  font-size: 1.75rem;
+}
+#general-div {
+  box-shadow: 0 0 15px 0 hsla(240, 5%, 41%, 0.2);
+}

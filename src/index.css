@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap");
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --font-color: #0d1b2a;
+  --bg-color: #f0efef;
+  --secondary-color: #fca311;
+  --main-color: #253250;
+  /* --font-color: #0d1b2a;
+  --bg-color: #e0e1dd;
+  --secondary-color: #1b263b;
+  --main-folor: #415a77; */
+}
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--font-color);
+}

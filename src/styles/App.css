@@ -1,0 +1,143 @@
+body {
+  background-color: var(--bg-color);
+}
+.all {
+  display: flex;
+  gap: 2rem;
+  margin: clamp(20px, 3%, 150px);
+  justify-content: center;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+#forms {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#application {
+  background-color: #fff;
+  width: 800px;
+  height: 1000px;
+  box-shadow: 0 5px 20px 8px hsla(240, 5%, 41%, 0.2);
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+#application > :first-child {
+  background-color: var(--main-color);
+  width: 100%;
+  padding: 2.5rem;
+  color: #fff;
+  font-weight: 500;
+  /* font-style: italic; */
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+}
+#application * {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+#additional-info {
+  text-align: center;
+  margin-block: 0.5rem;
+  margin-inline: 0;
+  overflow: hidden;
+}
+#additional-info span {
+  margin-inline: 0.6rem;
+  display: inline-block;
+  overflow: hidden;
+}
+.icons::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-inline: 5px;
+  font-size: 0.9rem;
+}
+.phone::before {
+  content: "\f095";
+}
+.email::before {
+  content: "\f0e0";
+}
+.address::before {
+  content: "\f3c5";
+}
+.icons:empty::before {
+  content: none;
+}
+.all-info {
+  padding-inline: 2.5rem;
+}
+.all-info h4 {
+  border-bottom: 2px solid var(--font-color);
+  margin: 0;
+}
+.card {
+  margin-block: 1.2rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.date-place {
+  display: flex;
+  flex-direction: column;
+  min-width: 12.5rem;
+}
+.date-place p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.more-details {
+  display: flex;
+  flex-direction: column;
+}
+.more-details h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+.more-details h5 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+.more-details p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.forms-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0.8rem;
+  border-radius: 6px;
+  box-shadow: 0 0 15px 0 hsla(240, 5%, 41%, 0.2);
+}
+.forms-btns i {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(175, 10, 10);
+  padding-inline: 5px;
+}
+.forms-btns * {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.35rem 1.5rem;
+  background-color: #fff;
+  border: none;
+  color: rgb(175, 10, 10);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 350ms ease;
+}
+.forms-btns :nth-child(2) {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.forms-btns :first-child:hover {
+  outline: 1px solid rgb(175, 10, 10);
+}
+.forms-btns :nth-child(2):hover {
+  outline: 1px solid var(--secondary-color);
+  background-color: #fff;
+  color: var(--secondary-color);
+}
