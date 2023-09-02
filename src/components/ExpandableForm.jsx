@@ -1,6 +1,6 @@
 import "../styles/expForm.css";
 import { useState } from "react";
-import { EducationalInformation } from "./educationalInformation";
+import { EducationalInformation } from "./EducationalInformation";
 import { ExperienceInformation } from "./ExperienceInformation";
 export function ExpandableForm({ details, setDetails, formType }) {
   const [expanded, setExpanded] = useState(false);
